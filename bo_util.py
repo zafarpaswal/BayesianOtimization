@@ -12,7 +12,7 @@ def plot_approximation(gpr, X, Y, X_sample, Y_sample, X_next=None, show_legend=F
     plt.plot(X, mu, 'b-', lw=1, label='Surrogate function')
     plt.plot(X_sample, Y_sample, 'kx', mew=3, label='Noisy samples')
     if X_next:
-        plt.axvline(x=X_next, ls='--', c='k', lw=1)
+        plt.axvline(x=X_next, ls='--', c='k', lw=1).
     if show_legend:
         plt.legend()
 
